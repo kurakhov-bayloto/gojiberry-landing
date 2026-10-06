@@ -450,7 +450,7 @@ f_kicker:'Катышуу форматтары',f_title:'Байлото биле�
 t1:'Скретч',d1:'Катмарды сүртүңүз · 1 сом',t2:'Ыкчам',d2:'Натыйжа дароо · 8 сом',t3:'Тираждуу',n3:'Жекпот 5 000 000 сомго чейин',d3:'Тиражга катышыңыз',
 c_kicker:'Baatir Loto',c_title:'Демо-режимде сынап көрүңүз',footer:DISC+' © 2025–2026'}
 };
-let cur='ru';try{cur=localStorage.getItem('bl_lang')||'ru'}catch(e){}
+let cur='ky';
 function setLang(l){cur=l;try{localStorage.setItem('bl_lang',l)}catch(e){}
 document.documentElement.lang=l;
 document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(T[l][k])el.textContent=T[l][k]});
